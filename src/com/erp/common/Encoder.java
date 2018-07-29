@@ -8,8 +8,7 @@ import java.security.*;
 import java.util.HashMap;
 
 public class Encoder {
-
-
+    /* Encoder */
     public static String getMD5(String text) throws Exception {
 
         MessageDigest md = MessageDigest.getInstance("MD5");
